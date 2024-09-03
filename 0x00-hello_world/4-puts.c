@@ -2,7 +2,7 @@
 
 /**
  * main - this is the main function
- * Description: this function prints exactely a text given
+ * Description: this function prints exactely a text given using puts
  *
  * Return: always 0
  */

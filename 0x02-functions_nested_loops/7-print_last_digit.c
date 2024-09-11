@@ -7,12 +7,12 @@
  * Return: the value
  */
 
-
-
 int print_last_digit(int n)
 {
 int lastd;
 lastd = n % 10;
-printf("%d\n", lastd);
+if (n < 0)
+	lastd = -lastd;
+_putchar(lastd + '0');
 return (lastd);
 }

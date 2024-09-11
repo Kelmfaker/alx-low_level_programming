@@ -15,8 +15,9 @@ for (i = 0; i <= 9 ; i++)
 	for (j = 0; j <= 9 ; j++)
 	{
 	k = i * j;
+	if (j < 9)
 	printf("%d, ", k);
 	}
-	printf("\n");
+	printf("%d\n", k);
 }
 }

@@ -18,9 +18,11 @@ for (i = 0; i <= 9 ; i++)
 	if (j == 0)
 	printf("%d, ", k);
 	else
+	{
 	printf("%2d", k);
 	if (j != 9)
 		printf(", ");
+	}
 	}
 	printf("\n");
 }

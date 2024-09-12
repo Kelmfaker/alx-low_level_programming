@@ -15,11 +15,13 @@ for (i = 0; i <= 9 ; i++)
 	for (j = 0; j <= 9 ; j++)
 	{
 	k = i * j;
-	if (j < 9 && k < 10)
-	printf("%d,  ", k);
-	else
+	if (j == 0)
 	printf("%d, ", k);
+	else
+	printf("%2d", k);
+	if (j != 9)
+		printf(", ");
 	}
-	printf("%d\n", k);
+	printf("\n");
 }
 }

@@ -19,9 +19,12 @@ for (i = 0; i < 10; i++)
 		_putchar((j / 10) + '0');
 		_putchar((j % 10) + '0');
 		}
-		else
-		_putchar(j + '0');
+
+else
+{
+	_putchar(j + '0');
+}
 	}
-	printf("\n");
+printf("\n");
 }
 }
